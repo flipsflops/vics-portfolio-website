@@ -27,3 +27,5 @@ dist-ssr
 
 # vscode
 .vscode
+
+# git subtree push --prefix dist origin branch-name-here
