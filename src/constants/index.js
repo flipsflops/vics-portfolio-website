@@ -159,7 +159,7 @@ const experiences = [
 		iconBg: '#383E56',
 		date: 'Dec 2019 - Sep 2021',
 		points: [
-			'Successfully completFloemed a wide range of projects for diverse clients, including e-commerce websites, portfolio sites, and corporate web applications.',
+			'Successfully completed a wide range of projects for diverse clients, including e-commerce websites, portfolio sites, and corporate web applications.',
 			'Collaborating closely with clients, I provided custom solutions, addressed technical challenges, and delivered projects on time and within budget, resulting in consistently high client satisfaction ratings.',
 			'With a strong focus on problem-solving, I implemented effective SEO strategies, optimized website performance, and integrated third-party APIs, resulting in improved search rankings and enhanced user experiences.',
 		],
@@ -301,24 +301,24 @@ const projects = [
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'YouTube API',
-				color: 'green-text-gradient',
-			},
-			{
 				name: 'Sass',
 				color: 'pink-text-gradient',
 			},
 			{
-				name: 'Firebase Auth',
+				name: 'ADO.NET',
 				color: 'aqua-text-gradient',
 			},
 			{
-				name: 'O-Auth',
+				name: 'SSMS',
 				color: 'orange-text-gradient',
 			},
 			{
 				name: 'Redux',
 				color: 'violet-text-gradient',
+			},
+			{
+				name: 'OpenAI ChatGPT API',
+				color: 'maroon-text-gradient',
 			},
 		],
 		image: workingWithDog,
