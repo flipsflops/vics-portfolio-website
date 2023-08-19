@@ -19,6 +19,7 @@ import {
 	worldPrint,
 	sabio,
 	aws,
+	paylocity,
 	// Icons
 	jobit,
 	tripguide,
@@ -189,6 +190,18 @@ const experiences = [
 			"Contributed to the design and implementation of an automated React testing software for Sabio's core React curriculum.",
 			'Debugged, created and re-factored a wide-range of features part of Sabio’s LISA software that serve both Admin and Student users.',
 			`Served as an instructor to help teach and guide students' for the sole goal to empower and guide aspiring students towards a successful career in software engineering. I provide comprehensive instruction and mentoring to help build a strong foundation in programming concepts, problem-solving skills, and industry best practices.`,
+		],
+	},
+	{
+		title: 'Full Stack Software Engineer',
+		company_name: 'Paylocity',
+		icon: paylocity,
+		iconBg: '#E6DEDD',
+		date: 'July 2023 - Present',
+		points: [
+			'Implemented event-based data exports across domains, managing the full software development life cycle within an agile framework',
+			'Understanding customer needs and aligning them with business goals. Decomposed complex outcomes and fostered cross-team collaboration',
+			'Contribute to shared code bases, perform thorough testing, and communicate effectively with stakeholders for system enhancements and issue resolutions.',
 		],
 	},
 ];

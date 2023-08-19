@@ -33,6 +33,7 @@ import tesla from './company/tesla.png';
 import worldPrint from './company/worldPrint.jpg';
 import sabio from './company/sabio.jpg';
 import freelance from './company/freelance.png';
+import paylocity from './company/paylocityLogo.png';
 
 // Icons
 import carrent from './carrent.png';
@@ -110,6 +111,7 @@ export {
 	worldPrint,
 	sabio,
 	freelance,
+	paylocity,
 	// Icons
 	carrent,
 	jobit,
