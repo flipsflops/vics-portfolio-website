@@ -1,16 +1,16 @@
 import React from 'react';
-// import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
-
 import { styles } from '../styles';
 import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const ServiceCard = ({ index, title, icon }) => (
-	<div className='xs:w-[250px] w-full'>
+	<div className='xs:w-[250px] w-full cursor-pointer'>
 		<motion.div
 			variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
+			whileHover={{ scale: 1.05, translateY: -10 }}
+			whileTap={{ scale: 0.8 }}
 			className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
 			<div
 				options={{
@@ -43,12 +43,14 @@ const About = () => {
 
 			<motion.p
 				variants={fadeIn('', '', 0.1, 1)}
-				className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-				I enjoy product-driven work to help business ideas find
-				traction. Business targets hit and people positively impacted
-				serve as drive and inspiration for me. Always eager for a good
-				conversation on design principles and terrible programming
-				jokes.
+				className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] pb-5'>
+				I am deeply passionate about leveraging product-driven
+				strategies to transform business concepts into reality. My
+				motivation stems from the dual satisfaction of achieving
+				business objectives and creating a positive impact on people. I
+				am always ready to engage in insightful discussions about design
+				principles, and I find joy in sharing a good-natured programming
+				joke, no matter how terrible it may be.
 			</motion.p>
 
 			<div className='mt-20 flex flex-wrap gap-10'>

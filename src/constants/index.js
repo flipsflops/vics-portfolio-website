@@ -19,6 +19,7 @@ import {
 	worldPrint,
 	sabio,
 	aws,
+	paylocity,
 	// Icons
 	jobit,
 	tripguide,
@@ -91,7 +92,7 @@ const services = [
 		icon: backend,
 	},
 	{
-		title: 'Teacher',
+		title: 'Frontend Developer',
 		icon: mobile,
 	},
 ];
@@ -134,7 +135,7 @@ const technologies = [
 		icon: threejs,
 	},
 	{
-		name: 'git',
+		name: 'Git',
 		icon: git,
 	},
 	{
@@ -159,7 +160,7 @@ const experiences = [
 		iconBg: '#383E56',
 		date: 'Dec 2019 - Sep 2021',
 		points: [
-			'Successfully completed a wide range of projects for diverse clients, including e-commerce websites, portfolio sites, and corporate web applications.',
+			'Completed a wide range of projects for diverse clients, including e-commerce websites, portfolio sites, and corporate web applications.',
 			'Collaborating closely with clients, I provided custom solutions, addressed technical challenges, and delivered projects on time and within budget, resulting in consistently high client satisfaction ratings.',
 			'With a strong focus on problem-solving, I implemented effective SEO strategies, optimized website performance, and integrated third-party APIs, resulting in improved search rankings and enhanced user experiences.',
 		],
@@ -182,13 +183,26 @@ const experiences = [
 		company_name: 'Sabio School of Software Engineering',
 		icon: sabio,
 		iconBg: '#E6DEDD',
-		date: 'Jan 2022 - Present',
+		date: 'Jan 2022 - Jul 2023',
 		points: [
 			"Designed and implemented a seamless automated system to test students’ ability to create and manage RESTful APIs in .NET for Sabio's core .NET curriculum.",
 			"Designed and implemented an optimized automated SQL testing software for Sabio's core SQL curriculum.",
 			"Contributed to the design and implementation of an automated React testing software for Sabio's core React curriculum.",
 			'Debugged, created and re-factored a wide-range of features part of Sabio’s LISA software that serve both Admin and Student users.',
 			`Served as an instructor to help teach and guide students' for the sole goal to empower and guide aspiring students towards a successful career in software engineering. I provide comprehensive instruction and mentoring to help build a strong foundation in programming concepts, problem-solving skills, and industry best practices.`,
+		],
+	},
+	{
+		title: 'Software Engineer',
+		company_name: 'Paylocity',
+		icon: paylocity,
+		iconBg: '#E6DEDD',
+		date: 'Jul 2023 - Present',
+		points: [
+			'Quickly integrated into the team, demonstrating a strong delivery mindset and eagerness to contribute to product development.',
+			'Led the enhancement of an existing feature within the Data Insights product suite, facilitating collaboration with contracted third-party devops and product team to seamlessly integrate new API offerings.',
+			'Worked to ensure top-quality deliverables. I achieved this through implementation of E2E and component-specific testing, and contributing significantly to RTB initiatives and efficiently resolving PDR related tickets.',
+			'Developed client-side solutions, establishing rapport with the UX team and consulted internal teams for custom solutions.',
 		],
 	},
 ];

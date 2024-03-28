@@ -33,6 +33,7 @@ import tesla from './company/tesla.png';
 import worldPrint from './company/worldPrint.jpg';
 import sabio from './company/sabio.jpg';
 import freelance from './company/freelance.png';
+import paylocity from './company/paylocity.png';
 
 // Icons
 import carrent from './carrent.png';
@@ -52,7 +53,7 @@ import workingWithDog from './projects/workingWithDog.png';
 import githubLogo from './socials/github.png';
 import linkedIn from './socials/linkedIn.png';
 
-// Certifications
+// Hackerrank Certifications
 import hackerrankNode from './certifications/hackerrankNode.png';
 import problemSolvingInt from './certifications/problemSolvingInt.png';
 import problemSolvingBasic from './certifications/problemSolvingBasic.png';
@@ -65,7 +66,7 @@ import jsBasic from './certifications/jsBasic.png';
 import jsInt from './certifications/jsInt.png';
 import softwareCareerEssentials from './certifications/softwareCareerEssentials.png';
 
-// Certifications
+// LinkedIn Certifications
 import dotNetDI from './courses/dotNetDI.png';
 import advSQLQueryProcessingP1 from './courses/advSQLQueryProcessingP1.png';
 import cSharpDelegatesEventsLambdas from './courses/cSharpDelegatesEventsLambdas.png';
@@ -110,6 +111,7 @@ export {
 	worldPrint,
 	sabio,
 	freelance,
+	paylocity,
 	// Icons
 	carrent,
 	jobit,
